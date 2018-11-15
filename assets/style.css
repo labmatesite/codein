@@ -1,0 +1,172 @@
+
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 0px 70px 0px 70px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+div#navbar{
+  z-index: 1000;
+}
+.topnav{
+  float: right;
+  padding-right: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #333;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/*div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+}*/
+
+.clearfix{
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img {
+    float: right;
+}
+
+.blog{
+  padding-top: 25px;
+}
+
+.blog p{
+  font-size: 18px;
+}
+.thumbnail{
+  margin-bottom: 0px !important;
+}
+.blogsidebar{
+  padding-top: 25px;
+}
+.blogsidebar img{
+  height: 30%;
+  width: 30%;
+}
+.blogsidebar p{
+  font-size: 16px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 30px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.author{
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.aboutpost{
+  font-size: 16px;
+}
